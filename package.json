@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-sql-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "npm start i kim 1234 rudqls@gmail.com",
+    "testselect" : "npm start s id id kim",
+    "DB": "mysql -u root -p < ./src/user_DB.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.21",
+    "mysql2": "^3.1.2"
+  }
+}
