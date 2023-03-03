@@ -17,3 +17,6 @@ insert user
 select user
  
     npm start <s || select || SELECT> <SELCT LIST Optional> <FROM Optional> <WHERE Optional>
+    
+
+<img alt="demo" src="nodejs-sql.gif" >
